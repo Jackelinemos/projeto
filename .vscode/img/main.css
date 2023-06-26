@@ -1,0 +1,18 @@
+
+ body,html{
+  height: 70%;
+  margin: 0; 
+  font-family: verdana;
+}
+
+.bg{
+  background-color: aquamarine; 
+  background-repeat: no-repeat;
+  background-size:auto ;
+  background-position: center;
+  background-attachment: fixed;
+}
+ 
+.row
+{border: radius 100px; font-family:tahoma;  firebrick}
+
