@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="imc.css">
+    <title>Calculadora IMC</title>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+
+    <section class="area">
+<img src="/logo paulo.png" width="200px">
+
+        <h3>Insira as informações abaixo:</h3>
+        <label for="pesokg"></label>
+        <i class="fa-solid fa-weight-scale"></i>
+        <input type="number" name="pesokg" id="pesokg" placeholder="Ex: 75"><br>
+
+        <label for="alturam"></label>
+        <i class="fa-sharp fa-solid fa-ruler"></i>
+        <input type="number" name="alturam" id="alturam" placeholder="Ex: 1,77"><br>
+
+        <input id="botao" type="button" value="Calcular" onclick="calcular()">
+        <div id="res"></div>
+    <footer>&copy;Jackeline</footer>
+    </section>
+<script src="imc.js"></script>
+</body>
+
+</html>
