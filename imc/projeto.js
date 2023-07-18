@@ -1,9 +1,7 @@
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.nav-menu');
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
+menu.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+    NavMenu.classList.toggle('ativo');
+})

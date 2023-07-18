@@ -12,14 +12,14 @@ height: 100vh;
 }
 
 body{
-background: url(fundo-madeira.jpg) no-repeat top center;
+background: url(../imc/fundo-madeira.jpg) no-repeat top center;
 background-size: cover;
 background-attachment: fixed;
 }
 
 main{
     position: relative;
-    
+    height: 100vh;
     }
 
 
@@ -32,15 +32,15 @@ transform: translate(-50%,-50%) ;
 
 height: 627px;
 width: 311px;
-background: url('/frame-iphone.png') no-repeat;
+background: url(../imc/frame-iphone.png) no-repeat;
 }
 
 iframe#tela{
 position: relative;
 top: 80px;
 left:22px;
-width:269%;
-height:471%;
+width:269px;
+height:471px;
 }
  
 section#redes-sociais{
@@ -57,5 +57,7 @@ box-sizing: border-box;
 
 section#redes-sociais img::hover{
 border:  2px solid bisque;
-
+transform: translate(-3px, -3px);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+transition: transform .3s, border 1s;
 }
