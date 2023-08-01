@@ -1,0 +1,102 @@
+* {
+   
+    margin: 0;
+    
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #5c9c01;
+  width:100%;
+    text-align: center;
+    padding-inline: 5%;
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 70px;
+    margin-top:70px;
+    margin-left: 10px;
+    color: #007bb5;
+    text-shadow: 2px 2px 2px rgb(31, 86, 24);
+}
+
+input, textarea {
+    width: 250px;
+    padding: 10px;
+    color: rgb(251, 247, 247);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #27f9f974;
+    box-shadow: 5px 2px 9px #bdddec;
+    background-color: #2633e692;
+    color: rgb(250, 245, 245);
+    font-weight: bold;
+}
+
+.enviar {
+    background-color:   #007bb5;
+    height:30px;
+    width: 80px;
+    text-align:  center;
+    margin-top: 11px;
+    font-weight: bold;
+    border: 1px solid;
+    color: rgb(255, 248, 248);
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 500px;
+}
+
+form label {
+    
+    margin-left: 20px;
+    color: #0c1516;
+    font-weight: bold;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+  border-radius:80rem;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius:80rem;
+  }
+  
+  .fa-instagram {
+    background:#007bb5;
+    color: white;
+    border-radius:80rem;
+  }
+
+
+

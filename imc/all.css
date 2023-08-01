@@ -1,11 +1,47 @@
 @charset "UTF-8";
 
-/*Configurações Gerais*/
+
 *{
-margin: 0px;
-padding: 0px;
+  padding: 0;
+  margin: center;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #5b9c01ef;
 }
 
-img{
-columns: 4;
+.gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vw;
+  gap:2vh;
 }
+.gallery-items{
+  width: 345px;
+  height: 320px;
+  border: 5px solid #FFF;
+  box-shadow: 2px 2px 2px #0006;
+  flex-grow: 1;
+  transition: transform .3s linear;
+  padding:;
+}
+.gallery-items img {
+  width: 80%;
+  height: 100%;
+  object-fit: center;
+}
+
+.gallery-items:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
